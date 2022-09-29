@@ -40,9 +40,7 @@ curl_setopt_array($curl, array(
   ]),
   CURLOPT_HTTPHEADER => [
       
-        "authorization: Bearer sk_live_23b906de774c70b1a7a7f68b5ba3000502de0731", 
-  //  "authorization: Bearer sk_test_c9a4948b34d352dc78f9b01fe0ec63c10f7bafa2", 
-  //replace this with your own test key
+  "authorization: Bearer sk_test_c9a4948b34d352dc78f9b01fe0ec63c10f7bafa2", 
     "content-type: application/json",
     "cache-control: no-cache"
   ],
